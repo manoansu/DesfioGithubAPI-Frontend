@@ -1,0 +1,76 @@
+.navbar-content {
+    height: 334px;
+    margin-top: 100px;
+    background-color: var(--color-bg-profile);
+    border-radius: 8px;
+    border: 1px solid var(--color-bg-secondary);
+    display: flex;
+}
+
+.nav-content-item {
+    width: 720px;
+    height: 247px;
+    margin: 45px 0 20px 20px;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid var(--color-bg-secondary);
+}
+
+.menu {
+    font-size: 24px;
+    margin: 10px;
+    color: var(--color-bg-secondary);
+}
+
+.menu-item {
+    width: 700px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    color: var(--color-font-primary);
+    border-radius: 8px;
+    border: 1px solid var(--color-bg-secondary);
+}
+
+.nav-item input {
+    font-size: 16px;
+    padding: 0 10px;
+    margin-top: 10px;
+    width: 298px;
+    height: 40px;
+    color: var(--color-font-quaternary);
+}
+
+.nav-item input:focus {
+    outline: none;
+}
+
+.nav-item input::placeholder {
+    color: var(--pc-color-font-placeholder);
+}
+
+.nav-input {
+    margin-top: 10px;
+    width: 298px;
+    height: 40px;
+}
+
+.btn-card {
+    margin-left: 30px;
+}
+
+.profile-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.profile-img img{
+    width: 180px;
+    height: 200px;
+}
